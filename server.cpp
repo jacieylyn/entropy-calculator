@@ -95,7 +95,6 @@ int main(int argc, char *argv[]) {
       
       std::string buffer = tempBuffer;
       delete[] tempBuffer;
-      //std::cout << "Message from client: " << std::endl << buffer << std::endl;
       std::string temp = parse(buffer);
       msgSize = temp.size();
       
